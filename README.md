@@ -1,5 +1,7 @@
 # AMD injection loader for webpack
 
+[![Join the chat at https://gitter.im/aaronjensen/amd-inject-loader](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aaronjensen/amd-inject-loader?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## What Is It
 
 This is a simple [webpack](http://webpack.github.io/) loader that allows you to override any dependency requested at the top of your code file in a normal `define` function block. It is currently very limited in scope. It doesn't handle nested `require` statements, and it doesn't overwrite or shim the `require` method itself.
